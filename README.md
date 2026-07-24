@@ -13,6 +13,10 @@
 
 所有规则文件均使用 YAML `payload` 格式。域名规则采用 `'+.example.com'` 通配符写法。
 
+## Surge 规则集
+
+`surge/` 包含上述规则转换后的 Surge 外部规则集（`.list`）和 `surge-rules.conf` 模板。域名已转换为 `DOMAIN-SUFFIX`，CIDR 已转换为 `IP-CIDR` / `IP-CIDR6`，应用规则保留为 `PROCESS-NAME`。详情见 [`surge/README.md`](surge/README.md)。
+
 ## 配置示例
 
 ```yaml
