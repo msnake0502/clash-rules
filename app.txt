@@ -33,3 +33,7 @@ payload:
   - PROCESS-NAME,Cursor.exe
   - PROCESS-NAME,Windsurf
   - PROCESS-NAME,Windsurf.exe
+  - PROCESS-NAME,opencode
+  - PROCESS-NAME,opencode.exe
+  - PROCESS-NAME,OpenCode
+  - PROCESS-NAME,OpenCode.exe
