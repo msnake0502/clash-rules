@@ -38,3 +38,4 @@ payload:
   - PROCESS-NAME,opencode.exe
   - PROCESS-NAME,OpenCode
   - PROCESS-NAME,OpenCode.exe
+  - PROCESS-NAME,iStat Menus Menubar
