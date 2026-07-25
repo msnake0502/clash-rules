@@ -89,3 +89,7 @@ payload:
   - '+.xiaohongshu.com'
   - '+.keep.com'
   - '+.jike.com'
+  - '+.hdhome.org'
+  - '+.bing.cn'
+  - '+.bing.net'
+  - '+.deepseek.com'
