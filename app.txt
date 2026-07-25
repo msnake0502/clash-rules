@@ -6,6 +6,7 @@ payload:
   - PROCESS-NAME,Codex
   - PROCESS-NAME,Codex.exe
   - PROCESS-NAME,Codex (Service)
+  - PROCESS-NAME,Codex Computer Use
   - PROCESS-NAME,com.openai.codex
   - PROCESS-NAME,Claude
   - PROCESS-NAME,Claude.exe

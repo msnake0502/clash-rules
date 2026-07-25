@@ -5,6 +5,7 @@ PROCESS-NAME,com.openai.chatgpt
 PROCESS-NAME,Codex.app
 PROCESS-NAME,Codex.exe
 PROCESS-NAME,Codex (Service)
+PROCESS-NAME,Codex Computer Use
 PROCESS-NAME,com.openai.codex
 PROCESS-NAME,Claude.app
 PROCESS-NAME,Claude.exe
