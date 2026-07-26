@@ -93,3 +93,6 @@ payload:
   - '+.bing.cn'
   - '+.bing.net'
   - '+.deepseek.com'
+  - '+.yzs10000.com'
+  - '+.lexinlink.com'
+  - '+.5gsxt.cn'
