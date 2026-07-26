@@ -43,3 +43,5 @@ payload:
   - PROCESS-NAME,iStat Menus Menubar
   - PROCESS-NAME,Telegram
   - PROCESS-NAME,Telegram.exe
+  - PROCESS-NAME,UURemoteServer
+  - PROCESS-NAME,UURemote
