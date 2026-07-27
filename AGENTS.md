@@ -4,9 +4,9 @@
 
 这是一个仅包含 Clash / Mihomo 规则数据的仓库。`release` 分支是 Raw 地址和 Release 附件的发布来源。
 
-- `mydirect.txt`：常见中国大陆网站直连域名规则。
+- `mydirect.txt`：常见中国大陆网站及按需指定服务的直连域名规则。
 - `ai.txt`：海外 AI 服务域名代理规则。
-- `app.txt`：AI 应用的 `PROCESS-NAME` 进程规则。
+- `app.txt`：应用的 `PROCESS-NAME` 进程规则。
 - `README.md`：规则提供程序、路由行为与使用示例。
 - `surge/`：可共享的 Surge 外部规则集；`surge-rules.conf` 使用固定 Raw URL 引用各 `.list` 文件。
 
