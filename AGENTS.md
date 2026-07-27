@@ -6,7 +6,7 @@
 
 - `mydirect.txt`：常见中国大陆网站及按需指定服务的直连域名规则。
 - `ai.txt`：海外 AI 服务域名代理规则。
-- `app.txt`：应用的 `PROCESS-NAME` 进程规则。
+- `app.txt`：需要魔法上网的应用 `PROCESS-NAME` 进程规则。
 - `README.md`：规则提供程序、路由行为与使用示例。
 - `surge/`：可共享的 Surge 外部规则集；`surge-rules.conf` 使用固定 Raw URL 引用各 `.list` 文件。
 
