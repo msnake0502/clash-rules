@@ -10,6 +10,7 @@
 | `myproxy.txt` | 常见海外服务代理 | `https://raw.githubusercontent.com/msnake0502/clash-rules/release/myproxy.txt` | `domain` |
 | `ai.txt` | 海外 AI 服务域名代理 | `https://raw.githubusercontent.com/msnake0502/clash-rules/release/ai.txt` | `domain` |
 | `app.txt` | 需要魔法上网的应用进程代理 | `https://raw.githubusercontent.com/msnake0502/clash-rules/release/app.txt` | `classical` |
+| `directapp.txt` | 需要直连的应用进程规则 | `https://raw.githubusercontent.com/msnake0502/clash-rules/release/directapp.txt` | `classical` |
 
 所有规则文件均使用 YAML `payload` 格式。域名规则采用 `'+.example.com'` 通配符写法。
 
@@ -53,8 +54,17 @@ rule-providers:
     path: ./ruleset/app.yaml
     interval: 86400
 
+  directapp:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/msnake0502/clash-rules/release/directapp.txt
+    path: ./ruleset/directapp.yaml
+    interval: 86400
+
 rules:
   - RULE-SET,mydirect,DIRECT
+  - RULE-SET,directapp,DIRECT
   - RULE-SET,app,PROXY
   - RULE-SET,ai,PROXY
   - RULE-SET,myproxy,PROXY
@@ -65,7 +75,8 @@ rules:
 - `mydirect.txt`：腾讯、阿里、百度、字节跳动、电商、银行、交通、物流等常见国内服务，以及按需指定的直连服务。
 - `myproxy.txt`：Google、YouTube、Telegram、Discord、X、GitHub、Dropbox、Netflix 等常见海外服务。
 - `ai.txt`：ChatGPT、OpenAI、Claude、Gemini、OpenCode、Perplexity、Mistral、Grok、Hugging Face 等海外 AI 服务域名。
-- `app.txt`：ChatGPT、Codex、Claude、Gemini、OpenCode、Cursor、Windsurf、Telegram、iStat Menus、UU Remote 等需要魔法上网的应用进程标识。
+- `app.txt`：ChatGPT、Codex、Claude、Gemini、OpenCode、Cursor、Windsurf、Telegram、iStat Menus 等需要魔法上网的应用进程标识。
+- `directapp.txt`：UURemote 等需要直连的应用进程标识；应置于 `app.txt` 代理规则之前。
 
 ## 注意事项
 

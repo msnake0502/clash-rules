@@ -8,4 +8,4 @@
 
 把 `surge-rules.conf` 中的 `JMS` 改为实际存在的 Surge 策略组名称。规则按顺序匹配，`FINAL,JMS` 必须位于 `[Rule]` 段最后。CIDR 规则带有 `no-resolve`，以避免它们对域名请求触发本地 DNS 解析。
 
-源规则包括本仓库的 `ai.txt`、`mydirect.txt`、`myproxy.txt`、`app.txt`，及 Loyalsoldier `clash-rules` release 分支中模板列出的对应文件。转换日期：2026-07-25。
+源规则包括本仓库的 `ai.txt`、`mydirect.txt`、`myproxy.txt`、`app.txt`、`directapp.txt`，及 Loyalsoldier `clash-rules` release 分支中模板列出的对应文件。转换日期：2026-07-27。
