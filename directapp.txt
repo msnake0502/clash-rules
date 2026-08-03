@@ -5,3 +5,4 @@ payload:
   - PROCESS-NAME,World of Warcraft.app
   - PROCESS-NAME,World of Warcraft.exe
   - PROCESS-NAME,ce3g0og3.exe
+  - PROCESS-NAME,LM Studio
