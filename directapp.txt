@@ -4,6 +4,7 @@ payload:
   - PROCESS-NAME,Battle.net Helper
   - PROCESS-NAME,Battle.net.exe
   - PROCESS-NAME,World of Warcraft.app
+  - PROCESS-NAME,World of Warcraft
   - PROCESS-NAME,World of Warcraft.exe
   - PROCESS-NAME,ce3g0og3.exe
   - PROCESS-NAME,LM Studio
