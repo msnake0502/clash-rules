@@ -11,3 +11,5 @@ PROCESS-NAME,WeChat
 PROCESS-NAME,Weixin.exe
 PROCESS-NAME,Tailscale
 PROCESS-NAME,Tailscale.exe
+PROCESS-NAME,tailscale-ipn.exe
+PROCESS-NAME,tailscaled.exe
