@@ -10,3 +10,5 @@ payload:
   - PROCESS-NAME,LM Studio
   - PROCESS-NAME,WeChat
   - PROCESS-NAME,Weixin.exe
+  - PROCESS-NAME,Tailscale
+  - PROCESS-NAME,Tailscale.exe
