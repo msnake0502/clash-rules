@@ -9,6 +9,7 @@ PROCESS-NAME,ce3g0og3.exe
 PROCESS-NAME,LM Studio
 PROCESS-NAME,WeChat
 PROCESS-NAME,Weixin.exe
+PROCESS-NAME,WeChatAppEx.exe
 PROCESS-NAME,Tailscale
 PROCESS-NAME,Tailscale.exe
 PROCESS-NAME,tailscale-ipn.exe
