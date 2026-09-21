@@ -11,6 +11,7 @@ PROCESS-NAME,WeChat
 PROCESS-NAME,Weixin.exe
 PROCESS-NAME,WeChatAppEx.exe
 PROCESS-NAME,UURemoteServer
+PROCESS-NAME,com.openai.chatgpt
 PROCESS-NAME,Tailscale
 PROCESS-NAME,Tailscale.exe
 PROCESS-NAME,tailscale-ipn.exe
