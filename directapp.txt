@@ -14,6 +14,7 @@ payload:
   - PROCESS-NAME,UURemoteServer
   - PROCESS-NAME,Cisco Secure Client
   - PROCESS-NAME,DeepSeek Harness.exe
+  - PROCESS-NAME,cxbrte13.exe
   - PROCESS-NAME,Tailscale
   - PROCESS-NAME,Tailscale.exe
   - PROCESS-NAME,tailscale-ipn.exe
