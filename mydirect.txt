@@ -97,3 +97,4 @@ payload:
   - '+.lexinlink.com'
   - '+.5gsxt.cn'
   - '+.microsoft.com'
+  - '+.ssl.besttone.com.cn'
