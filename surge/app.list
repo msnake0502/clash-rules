@@ -1,10 +1,14 @@
 PROCESS-NAME,ChatGPT.app
+PROCESS-NAME,ChatGPT for Chrome
 PROCESS-NAME,ChatGPT.exe
 PROCESS-NAME,com.openai.chat
 PROCESS-NAME,com.openai.chatgpt
 PROCESS-NAME,Codex.app
 PROCESS-NAME,Codex.exe
 PROCESS-NAME,Codex (Service)
+PROCESS-NAME,Codex (Renderer).app
+PROCESS-NAME,codex
+PROCESS-NAME,codex-code-mode-host
 PROCESS-NAME,Codex Computer Use
 PROCESS-NAME,SkyComputerUseService
 PROCESS-NAME,com.openai.codex
