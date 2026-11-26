@@ -14,6 +14,11 @@ PROCESS-NAME,UURemoteServer
 PROCESS-NAME,Cisco Secure Client
 PROCESS-NAME,DeepSeek Harness.exe
 PROCESS-NAME,cxbrte13.exe
+PROCESS-NAME,HexHub.app
+PROCESS-NAME,HexHub Helper.app
+PROCESS-NAME,HexHub Helper (GPU).app
+PROCESS-NAME,HexHub Helper (Renderer).app
+PROCESS-NAME,hexhub-backend
 PROCESS-NAME,Tailscale
 PROCESS-NAME,Tailscale.exe
 PROCESS-NAME,tailscale-ipn.exe
